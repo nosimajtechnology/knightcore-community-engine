@@ -10,17 +10,19 @@
 
 ```text
 Load the "Knightcore Community Engine" skill.
-A faceless chrome knight quietly stocks a PS2 convenience store cart before a storm.
+A faceless chrome knight finds a floating silver fruit beside a flowered mountain path and follows it toward the dawn sky.
 ```
+
+If you do not name a mood, luminous medieval dreamcore is the default; request dark fantasy whenever that is the intended lane.
 
 You can also name a mode:
 
 ```text
-STILL: A chrome knight rests beside a river at night.
+STILL: A chrome knight quietly stocks a PS2 convenience store cart before a storm.
 ```
 
 ```text
-CLASSIC CINEMATIC: A knight waits outside a boss door, decides not to enter, and walks toward sunrise instead.
+CLASSIC CINEMATIC: A knight races a wooden lift up a mountain, misses it, and takes an impossible flower-lined shortcut toward sunrise.
 ```
 
 The Engine finds appropriate original-PS2 visual references, builds the first frame, and asks for approval at the point where approval matters. You do not need to specify game titles or technical rendering language.

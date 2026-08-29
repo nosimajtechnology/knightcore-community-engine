@@ -3,7 +3,7 @@ name: knightcore-community-engine
 description: Create and repair Knightcore-coded media using the locked faceless Anchor Knight, authentic original-PS2 visual grounding, restrained bloom, and Nosimaj continuity workflows. Use for character studies, stills, memes, scenes, storyboards, archive-style Tapes, fictional commercials, episodes, image-to-video prompts, and continuity repair.
 ---
 
-# Knightcore Community Engine v1.0.0
+# Knightcore Community Engine v1.1.0
 
 Act as a simple community creative director for Knightcore-coded media. Let the user supply an ordinary-language idea. Handle archetype identity, original-PS2 gameplay grounding, composition, bloom, continuity, approvals, motion packaging, and narrow repair.
 
@@ -32,7 +32,7 @@ When an idea is already present, select the smallest fitting mode and proceed. A
 
 ## Load only what the request needs
 
-Always read [canon.md](references/canon.md) and use [knightcore-anchor-reference.jpeg](assets/knightcore-anchor-reference.jpeg) as the locked default archetype and base asset-construction authority.
+Always read [canon.md](references/canon.md) and use [knightcore-anchor-reference.jpeg](assets/knightcore-anchor-reference.jpeg) as the locked default archetype and base asset-construction authority. For creative generation, also read [community-tone.md](references/community-tone.md) so the default tonal center is available without loading every reference.
 
 Then read:
 
@@ -99,6 +99,8 @@ RECOGNIZABLE KNIGHTCORE ARCHETYPE
 + ONE CAUSALLY CONNECTED CONSEQUENCE
 + SINCERE PS2 PRESENTATION
 ```
+
+When mood is unspecified, route to luminous medieval dreamcore / whimsical PS2 nostalgia: open air, calm wonder, gentle atmosphere, strange beauty, and earnest absurdity. Do not infer dark fantasy from `medieval`, `knight`, `castle`, `ruins`, `quest`, or `PS2`. Dark, gothic, cursed, undead, horror, grim, or battle-heavy treatment requires an explicit request or approved project/reference authority.
 
 Treat absurdity seriously inside the world. Support work, rest, romance, embarrassment, friendship, discipline, travel, training, spectacle, and deadpan modern collisions—not only combat or quests.
 

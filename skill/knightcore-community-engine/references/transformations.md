@@ -10,6 +10,12 @@ Use this reference when translating a contemporary feeling or situation into Kni
 4. Make the next beat a direct consequence.
 5. Present it with sincere PS2 camera and animation language.
 
+## Quiet-wonder pattern
+
+`ordinary goal or object + medieval PS2 logic + one impossible deviation + direct, quietly wondrous consequence`
+
+Example: an everyday travel object develops one impossible movement rule, carries the knight across an obstacle, then settles at a calm overlook. Keep the object, location, companion, and event generic to the current scene rather than canonizing them.
+
 Examples:
 
 | Ordinary idea | Knightcoded direction |
@@ -21,4 +27,3 @@ Examples:
 | Need five minutes before doing something dumb | The knight sits silently outside a boss door while impatient guild members wait. |
 
 Do not force a medieval translation when the modern collision is funnier or more readable. Preserve the user's actual emotion instead of replacing it with quest exposition.
-

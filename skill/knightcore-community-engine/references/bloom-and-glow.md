@@ -20,7 +20,10 @@ Read this with rendering grounding. Bloom is a Knightcore material/light rule, n
 
 Reject modern anamorphic flares, mirror armor, cyberpunk rim light, glow around every object, source-less accents, overexposure that erases the knight, chromatic aberration, or analog noise used to conceal modern construction.
 
+## Dreamcore light
+
+Daylight and dawn may use pale-cyan silver glints, gentle warm sky bleed, sparse star sprites, soft horizon haze, and one localized magical accent. Cosmic gradients are rare accents on a single object, sprite, portal, or sky event—not a full-screen rainbow grade. Preserve dark values, faceted planes, low-resolution highlights, and raw PS2 restraint. Reject neon/cyberpunk spill, candy gloss, modern HDR, and bloom around every object.
+
 ## Optional Tape layer
 
 Add composite softness, scanlines, tracking noise, timecode, or REC overlays only when the user requests a Tape/archive/analog treatment. First confirm that the clean base scene already passes PS2 construction and bloom fidelity. The Tape layer cannot rescue or disguise a modern render.
-

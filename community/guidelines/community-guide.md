@@ -6,6 +6,8 @@ Give the Engine one feeling or situation, one action, and one consequence. A sen
 
 Knightcore can be ordinary, sincere, dreamy, romantic, tired, absurd, or spectacular. You do not need to add combat, a king, a quest, or a sword to every scene.
 
+The default is luminous medieval dreamcore and sincere PS2 wonder. Dark fantasy remains available when you ask for it.
+
 ## Approve in stages
 
 For a cinematic or episode, judge the first image before expanding it. Reply `Approved` when the knight, setting, and fidelity are right. A later correction should name only the failed layer so the Engine preserves everything else.

@@ -2,6 +2,17 @@
 
 These are specification dry runs against the canonical Skill, references, examples, and deterministic package. They verify routing and required decision contracts; generated imagery still receives the runtime visual gate before presentation.
 
+## v1.1 tonal refinement dry runs
+
+| Scenario | Expected routing | Status |
+| --- | --- | --- |
+| Neutral fantasy object beside a mountain path | Luminous, open, nostalgic PS2 world with strange beauty; no unsolicited gothic threat | PASS |
+| Knight and small companion reach a summit | Expansive skybox, simple terrain, reflective or gently comic payoff | PASS |
+| Enchanted clothing changes the journey | One readable magical rule, localized cosmic accent, direct consequence, calm or wondrous landing | PASS |
+| Explicit cursed gothic castle with undead | Existing dark-fantasy route remains available through explicit authority | PASS |
+| Bright fantasy across all routes | Anchor Knight stays faceless, sparse, faceted, early-PS2, and free of PBR/HDR drift | PASS |
+| New dreamcore premise | No named kingdom, mascot, artifact, faction, or official story event is created | PASS |
+
 ## 1. Locked asset
 
 The packaged JPEG hash is enforced as `321195c5886547227c5d2618bdcb6da8409f82157d49f908dd270a908938a3db`, then rechecked inside the ZIP. **Result: PASS**
