@@ -1,0 +1,5 @@
+interface:
+  display_name: "Knightcore Community Engine"
+  short_description: "Create grounded Knightcore PS2 media"
+  default_prompt: "Use $knightcore-community-engine to create a dreamy early-PS2 scene of a faceless chrome knight resting beside a river at night."
+

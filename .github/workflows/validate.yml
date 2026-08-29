@@ -1,0 +1,26 @@
+name: validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate repository and canonical Skill
+        run: python3 scripts/build_release.py --check
+      - name: Validate acceptance matrix
+        run: python3 scripts/validate_acceptance.py
+      - name: Build deterministic install ZIP
+        run: python3 scripts/build_release.py
+      - name: Verify release checksum
+        working-directory: dist
+        run: sha256sum -c SHA256SUMS
+
