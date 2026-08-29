@@ -4,6 +4,8 @@ An easy creative tool for making Knightcore-coded PS2 images, memes, scenes, com
 
 You do not need prompting knowledge. Tell the Engine what should happen; it handles the locked Anchor Knight, authentic original-PS2 reference grounding, bloom, camera direction, continuity, approvals, animation prompts, and common repairs.
 
+When you do not name a mood, the Engine begins from luminous medieval dreamcore: whimsical PS2 wonder, open skies, strange beauty, and sincere absurdity. Dark fantasy remains available when you request it.
+
 ## What you need
 
 - **ChatGPT with Skills and image generation** for creating pictures in the chat.
@@ -26,7 +28,7 @@ Load the "Knightcore Community Engine" skill.
 Then describe an idea:
 
 ```text
-A chrome knight rests beside a river at night while distant stars glint on the armor.
+A chrome knight finds a floating silver fruit beside a flowered mountain path and follows it toward the dawn sky.
 ```
 
 If the first frame is right, reply `Approved.` If one detail is wrong, name only that correction; the Engine preserves everything already passing.

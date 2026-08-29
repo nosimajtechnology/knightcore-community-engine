@@ -25,18 +25,25 @@ Use identifiable original-PS2 gameplay first; then original in-engine captures, 
 
 Later titles cannot raise polygon count, armor segmentation, material quality, or prop density.
 
+## Default environmental bias
+
+The locked Anchor Knight and raw 2000–2002 PS2 construction remain the geometry and material ceiling. For an unspecified fantasy mood, begin with the existing *Summoner* construction baseline and assign *Ico*, *Shadow of the Colossus*, or *Drakan: The Ancients' Gates* only narrow roles for bright stone, negative space, haze, open sky, elevation, whimsical flight, or large vistas.
+
+Inherit rendering behavior only; never copy protected characters, levels, or exact compositions. A reference used for geometry, camera, or light does not grant its grim narrative tone to the scene.
+
 ## Scene router
 
 | Need | Primary grounding | Narrow role |
 | --- | --- | --- |
 | Test room, courtyard, village, neutral reference | *Summoner* | tiled textures, primitive massing, crude shadows, sparse scene |
-| Early dark-fantasy character/enemy | *Warriors of Might and Magic* | angular foreground density and repeated NPC assets |
+| Whimsical travel, dreamlike quest, absurd magical event, summit vista | *Summoner* + narrow *Ico*, *Shadow of the Colossus*, or *Drakan* role | early-PS2 construction, bright stone, open sky, haze, elevation, flight, or vista only |
+| Early dark-fantasy character/enemy — opt-in | *Warriors of Might and Magic* | angular foreground density and repeated NPC assets |
 | Sunlit ruins, reflective travel, quiet realm | *Shadow of the Colossus* + *Ico* | bloom, haze, stone, negative space, quiet camera |
 | Knight action, fortress, crusade, melee | *Knights of the Temple* | armor arrangement, combat scale, camera only |
 | Tavern, guild hall, practical dungeon | *Baldur's Gate: Dark Alliance II* or *Champions of Norrath* | warm light, prop density, reusable NPCs |
-| Gothic corridor, undead, cursed castle | *Castlevania: Curse of Darkness* or *Lament of Innocence* | gothic massing, monster silhouettes, cool-dark light |
+| Gothic corridor, undead, cursed castle — opt-in | *Castlevania: Curse of Darkness* or *Lament of Innocence* | gothic massing, monster silhouettes, cool-dark light |
 | Dragon flight, bestiary travel, wide fantasy landscape | *Drakan: The Ancients' Gates* | dragon scale, aerial camera, fog-managed vista |
-| Spectral realm/supernatural castle | *Legacy of Kain: Defiance* | gothic silhouette, spectral glow, dramatic camera |
+| Spectral realm/supernatural castle — opt-in | *Legacy of Kain: Defiance* | gothic silhouette, spectral glow, dramatic camera |
 | Grocery, gym, street, airport-like modern collision | *Grand Theft Auto: San Andreas* original PS2 | environment/NPC construction only |
 
 ## Role assignment
@@ -74,4 +81,3 @@ Reject PBR, ray tracing, true mirrors, smooth subdivision, dense armor parts, mo
 A single major archetype failure fails. A single modern base-construction upgrade fails. Two other fidelity failures fail. A single major bloom failure fails.
 
 On failure: do not present; lock the correct premise/composition/identity/geography/action; repair one isolated layer automatically; regenerate when broadly modern; rerun the gate. After two failed grounded attempts, report the limitation and ask before a third.
-

@@ -35,6 +35,8 @@ def main() -> None:
     skill = SKILL.read_text(encoding="utf-8")
     grounding = (REFS / "rendering-grounding.md").read_text(encoding="utf-8")
     bloom = (REFS / "bloom-and-glow.md").read_text(encoding="utf-8")
+    tone = (REFS / "community-tone.md").read_text(encoding="utf-8")
+    transformations = (REFS / "transformations.md").read_text(encoding="utf-8")
     modes = (REFS / "modes.md").read_text(encoding="utf-8")
     boundaries = (REFS / "community-boundaries.md").read_text(encoding="utf-8")
     continuity = (REFS / "continuity.md").read_text(encoding="utf-8")
@@ -46,12 +48,37 @@ def main() -> None:
         "grounding",
     )
     require(bloom, ("source-bound", "silhouette", "Tape layer"), "bloom")
+    require(
+        skill,
+        ("luminous medieval dreamcore", "Do not infer dark fantasy", "approved project/reference authority"),
+        "dreamcore routing",
+    )
+    require(
+        tone,
+        ("Default tonal center", "wonder over dread", "Dark-fantasy spectacle — opt-in", "reroute it to the dreamcore default"),
+        "dreamcore tone",
+    )
+    require(
+        grounding,
+        ("Default environmental bias", "whimsical travel", "does not grant its grim narrative tone", "Gothic corridor, undead, cursed castle — opt-in"),
+        "dreamcore grounding",
+    )
+    require(
+        bloom,
+        ("Cosmic gradients are rare accents", "not a full-screen rainbow grade", "modern HDR"),
+        "dreamcore bloom",
+    )
+    require(
+        transformations,
+        ("ordinary goal or object", "one impossible deviation", "quietly wondrous consequence"),
+        "dreamcore transformation",
+    )
     require(modes, ("CHARACTER", "STILL", "MEME", "SCENE", "CLASSIC CINEMATIC", "TAPE / BUMPER", "COMMERCIAL", "EPISODE"), "modes")
     require(continuity, ("LOCK:", "CHANGE ONLY:", "DO NOT CHANGE:"), "repair")
     require(boundaries, ("not a trading tool", "financial advice", "unofficial"), "community boundary")
 
     print("OK   17/17 acceptance dry runs recorded PASS")
-    print("OK   UX, grounding, bloom, mode, continuity, and boundary controls discovered")
+    print("OK   UX, dreamcore routing, grounding, bloom, mode, continuity, and boundary controls discovered")
 
 
 if __name__ == "__main__":

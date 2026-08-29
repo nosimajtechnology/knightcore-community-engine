@@ -2,6 +2,8 @@
 
 Replace the bracketed parts or simply write your own idea.
 
+Unspecified moods begin from luminous medieval dreamcore; add `dark fantasy` only when that is the lane you want.
+
 ## Still
 
 ```text
@@ -23,6 +25,8 @@ Example: `Knightcode this feeling: when you need five minutes before doing somet
 ```text
 A knight wants to [goal]. The knight [clear action], which causes [connected consequence]. Make it a short PS2 scene.
 ```
+
+Example: `A knight needs to cross a ravine. A plain travel object begins floating, carries the knight over, then drifts away above a quiet mountain vista.`
 
 ## Tape / bumper
 

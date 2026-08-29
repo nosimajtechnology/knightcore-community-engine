@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.0 — 2026-08-29
+
+- Made luminous medieval dreamcore / whimsical PS2 nostalgia the default when mood is unspecified.
+- Kept dark-fantasy routing available through explicit user or approved-reference authority.
+- Added restrained dreamcore light, cosmic-accent, environmental-bias, and quiet-wonder premise guidance without changing the locked Anchor Knight or workflow.
+
 ## 1.0.0 — 2026-08-29
 
 - Added the first release-ready Knightcore Community Engine Skill.

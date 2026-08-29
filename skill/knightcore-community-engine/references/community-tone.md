@@ -2,12 +2,18 @@
 
 Read this when generating concepts, captions, memes, or community-facing scenes.
 
+## Default tonal center
+
+When mood is unspecified, begin from **luminous medieval dreamcore**: sincere and almost whimsical, never parody. Favor nostalgic low-poly worlds, open air, quiet environmental beauty, and absurd events governed by simple, readable game logic. A payoff may resolve into wonder, silence, friendship, or one small visual miracle instead of combat.
+
+The default can be lonely, wistful, eerie, majestic, tired, or bittersweet. Its center is wonder over dread and sincere strangeness over grimdark spectacle. Dark, cursed, gothic, undead, horror, grim, or battle-heavy treatment is opt-in through the user's request or approved project/reference authority.
+
 ## Core lanes
 
 1. **Ordinary life, knight-coded:** work, groceries, yards, relationships, calling in sick, gossip, training, cooling off, or rest translated through knight/game logic.
 2. **Earnest strength:** discipline, effort, resilience, earned respect, and becoming undeniable without motivational-poster clichés.
-3. **Dreamy medieval nostalgia:** silver armor, horses, castles, flowers, stars, mushrooms, dawn skies, wistful travel, and reflective pacing.
-4. **Dark-fantasy spectacle:** dragons, undead, battles, taverns, quests, bestiary chaos, and impossible realm events.
+3. **Dreamy medieval nostalgia — default:** silver armor, horses, castles, flowers, stars, mushrooms, dawn skies, wistful travel, and reflective pacing.
+4. **Dark-fantasy spectacle — opt-in:** dragons, undead, battles, taverns, quests, bestiary chaos, and impossible realm events.
 5. **Deadpan collision:** one serious knight in a mundane or absurd situation that everyone treats as normal.
 6. **Guild identity:** participation and shared realm energy without forcing rigid canon or bureaucracy.
 
@@ -19,5 +25,8 @@ Vary emotional registers. Knightcore can be tender, romantic, reflective, embarr
 
 Avoid generic “grindset” copy, forced fourth-wall jokes, unexplained escalation, prop multiplication, or premises that merely place a random knight into visual noise. When a caption is useful, provide it separately or preserve clean caption space unless embedded text is essential.
 
-The official tone supports a low-pressure, meme-native sense of belonging. Keep guild language inviting; do not invent ranks, laws, kingdoms, or lore offices unless the user asks.
+Avoid permanent overcast, mud-and-blood palettes, horror lighting, gore, oppressive decay, aggressive desaturation, and Soulslike solemnity unless requested. Bright does not mean modern, glossy, saccharine, toy-like, or high-fantasy concept art.
 
+Diagnostic: if a neutral idea becomes darker merely because it contains a knight, castle, mountain, or ruins, reroute it to the dreamcore default.
+
+The official tone supports a low-pressure, meme-native sense of belonging. Keep guild language inviting; do not invent ranks, laws, kingdoms, or lore offices unless the user asks.
