@@ -1,5 +1,14 @@
 interface:
-  display_name: "Knightcore Community Engine"
-  short_description: "Create grounded Knightcore PS2 media"
-  default_prompt: "Use $knightcore-community-engine to create a dreamy early-PS2 scene of a faceless chrome knight resting beside a river at night."
-
+  display_name: Knightcore Community Engine
+  short_description: Create Knightcore PS2 and Late-Z media
+  default_prompt: Use $knightcore-community-engine to create a Late-Z Anchor Knight
+    scene for H3 Max R2V.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

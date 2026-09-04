@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate the documented Knightcore v1 acceptance dry runs and controls."""
+"""Validate the documented Knightcore v1.2 acceptance dry runs and controls."""
 
 from __future__ import annotations
 
@@ -40,19 +40,27 @@ def main() -> None:
     modes = (REFS / "modes.md").read_text(encoding="utf-8")
     boundaries = (REFS / "community-boundaries.md").read_text(encoding="utf-8")
     continuity = (REFS / "continuity.md").read_text(encoding="utf-8")
+    h3 = (REFS / "model-adapters" / "fal-h3-max.md").read_text(encoding="utf-8")
 
-    require(skill, ("Anchor Knight", "at most one question", "generate", "prompt only"), "Skill UX")
+    require(
+        skill,
+        (
+            "Anchor Knight",
+            "style-selection question",
+            "video intent",
+            "ambiguous",
+            "generate",
+            "prompt only",
+        ),
+        "Skill UX",
+    )
     require(
         grounding,
         ("Summoner", "Warriors of Might and Magic", "painted chainmail", "block", "original-platform", "three to five"),
         "grounding",
     )
     require(bloom, ("source-bound", "silhouette", "Tape layer"), "bloom")
-    require(
-        skill,
-        ("luminous medieval dreamcore", "Do not infer dark fantasy", "approved project/reference authority"),
-        "dreamcore routing",
-    )
+    require(skill, ("community-tone.md", "not only combat or quests"), "tone routing")
     require(
         tone,
         ("Default tonal center", "wonder over dread", "Dark-fantasy spectacle — opt-in", "reroute it to the dreamcore default"),
@@ -74,13 +82,24 @@ def main() -> None:
         "dreamcore transformation",
     )
     require(modes, ("CHARACTER", "STILL", "MEME", "SCENE", "CLASSIC CINEMATIC", "TAPE / BUMPER", "COMMERCIAL", "EPISODE"), "modes")
+    require(modes, ("CLASSIC CONTROL", "DIRECT EXPLORE", "CHARACTER LOCK"), "video routes")
+    require(
+        h3,
+        (
+            "minimax/h3-max/image-to-video",
+            "minimax/h3-max/text-to-video",
+            "minimax/h3-max/reference-to-video",
+            "knightcore-anchor-reference.jpeg",
+            "knightcore-late-z-character-sheet.jpeg",
+        ),
+        "H3 Max adapter",
+    )
     require(continuity, ("LOCK:", "CHANGE ONLY:", "DO NOT CHANGE:"), "repair")
     require(boundaries, ("not a trading tool", "financial advice", "unofficial"), "community boundary")
 
     print("OK   17/17 acceptance dry runs recorded PASS")
-    print("OK   UX, dreamcore routing, grounding, bloom, mode, continuity, and boundary controls discovered")
+    print("OK   UX, dreamcore, grounding, bloom, mode, H3 Max, continuity, and boundary controls discovered")
 
 
 if __name__ == "__main__":
     main()
-

@@ -2,14 +2,14 @@
 
 An easy creative tool for making Knightcore-coded PS2 images, memes, scenes, commercials, interstitials, and episodes from an ordinary-language idea.
 
-You do not need prompting knowledge. Tell the Engine what should happen; it handles the locked Anchor Knight, authentic original-PS2 reference grounding, bloom, camera direction, continuity, approvals, animation prompts, and common repairs.
+You do not need prompting knowledge. Tell the Engine what should happen; it handles the locked Anchor Knight, authentic original-PS2 reference grounding, registered visual styles, bloom, camera direction, continuity, approvals, animation prompts, and common repairs.
 
 When you do not name a mood, the Engine begins from luminous medieval dreamcore: whimsical PS2 wonder, open skies, strange beauty, and sincere absurdity. Dark fantasy remains available when you request it.
 
 ## What you need
 
 - **ChatGPT with Skills and image generation** for creating pictures in the chat.
-- **A separate video tool** for animation. The Engine writes the image-to-video brief; it does not render video or include third-party credits.
+- **A separate video tool** for animation. The Engine writes prompts for fal.ai MiniMax H3 Max, Seedance, Kling, or another video tool; it does not render video or include third-party credits.
 
 ## Install in ChatGPT
 
@@ -43,6 +43,18 @@ If the first frame is right, reply `Approved.` If one detail is wrong, name only
 - **TAPE / BUMPER** — short ident, loop, or archive fragment
 - **COMMERCIAL** — fictional realm product, service, or PSA
 - **EPISODE** — four progressive storyboards; a fifth only when needed
+
+## Late-Z and H3 Max
+
+The Engine now includes a broadcast-grounded **Late-Z Battle Cel** style and
+the approved Anchor Knight Late-Z sheet. For fal.ai MiniMax H3 Max video:
+
+- **Classic Control / I2V** keeps the approved Genesis Frame as the literal
+  opening frame and uses the storyboard as planning authority.
+- **Direct Explore / T2V** creates self-contained text-only concepts with no
+  references.
+- **Character Lock / R2V** places the canonical Anchor Knight sheet first and
+  the Late-Z sheet second as style-only authority when active.
 
 ## Default Anchor Knight
 

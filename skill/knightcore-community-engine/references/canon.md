@@ -43,4 +43,3 @@ An approved scene may change current pose, props, setting, or light. It cannot s
 ## Reject drift
 
 Fail the image when the knight becomes a modern photoreal/PBR hero, ornate Soulslike warrior, superhero, sci-fi power suit, chrome robot, franchise-specific crusader, or celebrity-like exposed face. Also fail modeled chainmail, detailed finger joints, dense rivets/trim, layered filigree, true mirror reflection, or a modern studio-render backdrop.
-

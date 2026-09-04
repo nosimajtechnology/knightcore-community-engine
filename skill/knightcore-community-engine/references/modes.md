@@ -16,16 +16,32 @@ Choose the smallest mode that satisfies the request. Do not show a menu when the
 ## Shared flow
 
 ```text
-IDEA → MODE/PREMISE → ACTIVE PS2 BUILD → SCREENSHOT INSPECTION
-→ REFERENCE ROLES → RENDERING/BLOOM CONTRACT → FIRST FRAME
-→ ARCHETYPE/FIDELITY/BLOOM GATE → USER APPROVAL → NEXT MODE OUTPUT
+IDEA → MODE/PREMISE → STYLE SELECTION → REFERENCE ROLES
+→ SELECTED RENDERING CONTRACT → FIRST FRAME → STYLE/ARCHETYPE GATE
+→ USER APPROVAL → NEXT MODE OUTPUT
 ```
 
-IMAGE/STILL is first-class. Do not require video, storyboard work, or provider selection for one image.
+For `FLAGSHIP PS2`, resolve the active build and inspect screenshots before the
+rendering contract. For a registered adapter, follow its style-local grounding
+and gate instead. STILL is first-class. Do not require video, storyboard work,
+or provider selection for one image.
+
+## Storyboard rhythm
+
+For any multi-shot board, store one rhythm role per panel: `HOLD`, `BURST`,
+`INSERT`, or `REVEAL`. Equal-size panels do not imply equal screen time. Use one
+readable attack path per combat panel. For transformations or state changes,
+show an intact pre-state, a brief transition beat, and an intact post-state;
+the transition does not permit redesign or continuous morphing.
+
+Vary shot scale with purpose. Prefer a deliberate mix of wide establish,
+medium action, tight reaction, extreme detail, low-angle reveal, overhead, or
+foreground obstruction. Avoid a row of centered eye-level medium shots and
+avoid random extremes that break geography.
 
 ## Approval behavior
 
-Treat `approved`, `lock it`, `perfect`, and clear equivalents as approval. Do not continue a failed first frame into later stages. Remember a named video model even when the user names it early.
+Treat `approved`, `lock it`, `perfect`, and clear equivalents as approval. Do not continue a failed first frame into later stages. Remember a named video model even when the user names it early. Carry selected style, rhythm roles, motion profile, and any state-change delta into the animation brief.
 
 For EPISODE:
 
@@ -37,3 +53,39 @@ For EPISODE:
 
 Every board begins from the exact approved final state of the prior board. Never generate all episode boards in advance unless the user explicitly asks.
 
+## Video creation routes
+
+Resolve one route after mode and style, before developing a video concept. Do
+not show the chooser when the request already determines the route.
+
+### CLASSIC CONTROL
+
+Use for `CLASSIC CINEMATIC`, a Genesis Frame, an exact opening composition, or
+the established image-first workflow:
+
+```text
+IDEA → GPT IMAGE 2 GENESIS FRAME → APPROVAL → STORYBOARD → APPROVAL
+→ MODEL-NEUTRAL MOTION BRIEF → H3 MAX I2V PROMPT
+```
+
+Upload the approved Genesis Frame as the literal I2V opening frame. Keep the
+storyboard as planning authority for shot order, geography, action, rhythm, and
+transitions; translate it into the chronological prompt instead of uploading a
+contact sheet by default.
+
+### DIRECT EXPLORE
+
+Use for rapid text-only iteration with no references. Fully describe the Anchor
+Knight identity, selected rendering style, world, hook, action progression,
+camera, payoff, and exclusions. This route trades identity certainty for speed
+and breadth. If drift repeats, recommend CHARACTER LOCK or CLASSIC CONTROL.
+
+### CHARACTER LOCK
+
+Use when recognizable Anchor Knight construction matters but the opening frame
+should remain free. The bundled Anchor Knight sheet is the primary R2V
+reference. When Late-Z is active, add the Late-Z translation sheet second.
+Assign any further reference one narrow role and never let it overwrite knight
+identity or the selected rendering style.
+
+For fal.ai H3 Max packaging, read `model-adapters/fal-h3-max.md`.

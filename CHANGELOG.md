@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.2.0 — 2026-09-04
+
+- Added the Late-Z Battle Cel adapter and approved Anchor Knight translation sheet.
+- Added H3 Max Classic Control (I2V), Direct Explore (T2V), and Character Lock
+  (R2V) routes with explicit reference-role ordering.
+- Preserved the classic Genesis Frame → storyboard workflow while translating
+  the approved board into a chronological H3 Max prompt.
+- Added Anchor Knight–specific T2V identity language, weapon-path safeguards,
+  verified fal.ai fields, and route-specific repair guidance.
+
 ## 1.1.0 — 2026-08-29
 
 - Made luminous medieval dreamcore / whimsical PS2 nostalgia the default when mood is unspecified.
@@ -14,4 +24,3 @@
 - Added original-PS2 screenshot inspection, narrow reference roles, raw 2000–2002 construction ceilings, and bloom/glow doctrine.
 - Added approval locks, progressive continuity, provider-neutral animation packaging, narrow repair, and community/financial boundaries.
 - Added deterministic packaging, repository validation, acceptance dry runs, and tag-gated release automation.
-
