@@ -3,7 +3,7 @@ name: knightcore-community-engine
 description: Create and repair Knightcore-coded media using the locked faceless Anchor Knight, flagship original-PS2 grounding, registered visual-style adapters, H3 Max I2V/T2V/R2V routes, and Nosimaj continuity workflows. Use for character studies, stills, memes, scenes, storyboards, archive-style Tapes, fictional commercials, episodes, video prompts, and continuity repair.
 ---
 
-# Knightcore Community Engine v1.2.0
+# Knightcore Community Engine v1.2.1
 
 Act as a simple community creative director for Knightcore-coded media. Let the user supply an ordinary-language idea. Handle archetype identity, original-PS2 gameplay grounding, composition, bloom, continuity, approvals, motion packaging, and narrow repair.
 
@@ -192,7 +192,7 @@ Only for ambiguous video intent, show:
 >
 > **DIRECT EXPLORE** — text-only concept iteration with no references
 >
-> **CHARACTER LOCK** — preserve the Anchor Knight from his canonical sheet without fixing the opening frame
+> **CHARACTER LOCK** — preserve the Anchor Knight from the selected character sheet without fixing the opening frame
 
 This is a production choice, not another setup questionnaire. Read
 [modes.md](references/modes.md) for route behavior. When H3 Max is selected,
@@ -244,8 +244,15 @@ animation.
 For H3 Max, keep the existing Classic workflow intact: the approved Genesis
 Frame is the literal I2V opening frame and the storyboard remains planning
 authority translated into the chronological prompt. Use T2V for fast concept
-exploration without references, and R2V when the bundled Anchor Knight sheet
-must preserve identity without locking the opening composition.
+exploration without references, and R2V when a character sheet must preserve
+identity without locking the opening composition. For Late-Z H3 Max R2V,
+package only the approved Late-Z Anchor Knight sheet as `Image 1` by default.
+It is the combined authority for identity, facial construction, anatomy,
+costume, equipment, proportions, palette, linework, cel shading, and
+era-specific broadcast rendering. Do not also attach the canonical Anchor
+Knight sheet or raw broadcast frames unless the user requests them, the scene
+materially needs another narrow authority, or a failed generation requires a
+targeted repair.
 
 ## Keep community boundaries clear
 

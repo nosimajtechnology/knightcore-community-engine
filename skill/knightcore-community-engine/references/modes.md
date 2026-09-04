@@ -83,9 +83,11 @@ and breadth. If drift repeats, recommend CHARACTER LOCK or CLASSIC CONTROL.
 ### CHARACTER LOCK
 
 Use when recognizable Anchor Knight construction matters but the opening frame
-should remain free. The bundled Anchor Knight sheet is the primary R2V
-reference. When Late-Z is active, add the Late-Z translation sheet second.
-Assign any further reference one narrow role and never let it overwrite knight
-identity or the selected rendering style.
+should remain free. For Late-Z, the approved Late-Z Anchor Knight sheet is
+`Image 1` and the only default uploaded R2V reference. Do not also attach the
+canonical Anchor Knight sheet or raw broadcast frames. Add another reference
+only when the user requests it, the scene requires another narrow authority, or
+a failed result needs a targeted repair; keep the Late-Z sheet first. Other
+styles retain their existing reference architecture.
 
 For fal.ai H3 Max packaging, read `model-adapters/fal-h3-max.md`.

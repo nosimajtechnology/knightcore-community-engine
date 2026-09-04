@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.2.1 — 2026-09-04
+
+- Consolidated Late-Z H3 Max R2V around the approved Late-Z Anchor Knight sheet
+  as `Image 1` and the only default uploaded reference.
+- Preserved Late-Z I2V, T2V, provider fields, and every non-Late-Z reference
+  architecture.
+- Added the approved Late-Z reference sheet to the GitHub README.
+
 ## 1.2.0 — 2026-09-04
 
 - Added the Late-Z Battle Cel adapter and approved Anchor Knight translation sheet.

@@ -40,6 +40,13 @@ the adapter-specific character translation. Assign any approved cel project
 image to project continuity. A user-approved project frame remains stronger for
 current wardrobe, pose, setting, light, and action state.
 
+Exception for H3 Max R2V: upload only the bundled Late-Z Anchor Knight sheet as
+`Image 1` by default. For that route, it is the consolidated authority for
+identity, anatomy, armor, equipment, proportions, palette, linework, cel
+shading, and broadcast rendering. Do not also attach the canonical Anchor
+Knight sheet or raw broadcast captures unless the user requests them, the scene
+needs another narrow authority, or a failed result needs a targeted repair.
+
 ## Reference-role firewall
 
 Assign every supplied reference a primary role before generation:

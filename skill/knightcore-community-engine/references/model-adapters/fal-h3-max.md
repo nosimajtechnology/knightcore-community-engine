@@ -12,7 +12,7 @@ and verified fal.ai fields only.
 | --- | --- | --- |
 | CLASSIC CONTROL | `minimax/h3-max/image-to-video` | approved Genesis Frame |
 | DIRECT EXPLORE | `minimax/h3-max/text-to-video` | text prompt only |
-| CHARACTER LOCK | `minimax/h3-max/reference-to-video` | canonical Anchor Knight sheet first |
+| CHARACTER LOCK | `minimax/h3-max/reference-to-video` | selected character sheet; Late-Z sheet alone by default when Late-Z is active |
 
 `CLASSIC CINEMATIC` already means CLASSIC CONTROL. If a user asks to explore or
 iterate freely, recommend DIRECT EXPLORE. If they want recognizable Anchor
@@ -121,27 +121,46 @@ making the prompt longer and more conflicted.
 
 ## CHARACTER LOCK — R2V
 
-Use this default reference order:
+When Late-Z is active, use this default package:
+
+```text
+Image 1 = ../../assets/knightcore-late-z-character-sheet.jpeg; sole default
+reference and complete authority for Anchor Knight identity, helm, anatomy,
+armor, equipment, proportions, palette, linework, cel shading, and Late-Z
+broadcast rendering.
+```
+
+Begin every default Late-Z R2V prompt with:
+
+```text
+#Image1 is the sole visual reference and complete authority for the character's
+identity, facial construction, anatomy, costume, proportions, palette, linework
+and Late-Z rendering. Preserve the same character throughout every angle. Do
+not show the sheet, turnaround layout, white background or multiple copies of
+the character.
+```
+
+Do not also upload the canonical Anchor Knight sheet or raw broadcast frames.
+Add another reference only when the user explicitly requests it, the scene
+requires another character, prop, vehicle, environment, motion, or audio
+authority, or a failed generation needs a narrow identity or anatomy repair.
+Keep the Late-Z sheet as `Image 1`, assign every added reference one narrow
+role, never say to blend all references, and mention only slots actually used.
+
+Outside Late-Z, preserve the existing default order:
 
 ```text
 Image 1 = ../../assets/knightcore-anchor-reference.jpeg; immutable Anchor Knight
 identity, great helm, proportions, armor-part arrangement, chainmail placement,
 restrained construction, weapon count, and silhouette.
-Image 2 = selected adapter-specific Anchor Knight sheet, when active; rendering
-translation, palette, line, shading, and era treatment only.
-Image 3 = secondary character identity, only when needed.
-Further Images = one environment, prop, creature, or wardrobe role each, only
-when the scene materially needs it.
-Video 1 = motion, performance timing, camera, or edit rhythm only; never
-identity, rendering, palette, armor, weapon, or audio authority.
-Audio 1 = voice or sound authority only.
+Image 2 = selected adapter-specific Anchor Knight sheet when a future adapter's
+existing architecture requires it; translation and era treatment only.
 ```
 
-For Late-Z, Image 2 is
-`../../assets/knightcore-late-z-character-sheet.jpeg`. The canonical sheet stays
-primary. In the copy-paste prompt call inputs `Image 1`, `Image 2`, `Video 1`,
-and `Audio 1` according to their list order. A host UI may display the same
-tokens with `#` or `@`; preserve the ordering and roles.
+Add further image, video, or audio references only when materially needed and
+assign each one a narrow role. In the copy-paste prompt, call inputs according
+to their actual list order. A host UI may display the same tokens with `#` or
+`@`; preserve ordering and roles.
 
 Use the fewest references that fully define the scene. Never say `blend all
 references`. Reference images, videos, and audio together may total at most 12

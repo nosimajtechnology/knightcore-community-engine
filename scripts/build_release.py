@@ -14,7 +14,7 @@ from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parent.parent
 SKILL_NAME = "knightcore-community-engine"
-VERSION = "1.2.0"
+VERSION = "1.2.1"
 SKILL_DIR = ROOT / "skill" / SKILL_NAME
 CANONICAL_MANIFEST = SKILL_DIR / "SKILL.md"
 ROOT_ENTRYPOINT = ROOT / "SKILL.md"

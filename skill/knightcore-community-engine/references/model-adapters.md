@@ -20,6 +20,12 @@ Use the fewest references that fully define the work. Assign each one primary
 role: identity, style, storyboard order, environment, prop/creature, or motion.
 A motion reference cannot silently become rendering or audio authority.
 
+For Late-Z H3 Max R2V, the approved Late-Z Anchor Knight sheet is `Image 1` and
+the only default uploaded reference. This route-specific consolidated sheet
+replaces the normal canonical-plus-style package. Add a narrowly assigned
+reference only when requested, materially required by the scene, or needed for
+a targeted repair; keep the Late-Z sheet first and omit unused slots.
+
 ## fal.ai MiniMax H3 Max
 
 For H3 Max, I2V, T2V, R2V, Classic Control, Direct Explore, or Character Lock,

@@ -53,8 +53,9 @@ the approved Anchor Knight Late-Z sheet. For fal.ai MiniMax H3 Max video:
   opening frame and uses the storyboard as planning authority.
 - **Direct Explore / T2V** creates self-contained text-only concepts with no
   references.
-- **Character Lock / R2V** places the canonical Anchor Knight sheet first and
-  the Late-Z sheet second as style-only authority when active.
+- **Character Lock / R2V** uses the approved Late-Z Anchor Knight sheet as
+  `Image 1` and the only default reference when Late-Z is active. Other styles
+  retain their existing reference setup.
 
 ## Default Anchor Knight
 
@@ -63,6 +64,12 @@ the approved Anchor Knight Late-Z sheet. For fal.ai MiniMax H3 Max video:
 This reference is the Engine's approved and locked default archetype and raw early-PS2 construction authority. It is not a named mascot, new official character, or declaration of Knightcore lore. The bundled JPEG is preserved unchanged; installation and release automation verify its exact SHA-256 and never regenerate, enhance, crop, or re-encode it.
 
 Different knights, armor wear, capes, props, creatures, settings, moods, and stories are welcome. The Engine does not silently upgrade the Anchor Knight into modern PBR, ornate Soulslike armor, a robot, or a high-poly render.
+
+## Style reference sheets
+
+### Late-Z Battle Cel
+
+![Anchor Knight Late-Z Battle Cel character sheet](./skill/knightcore-community-engine/assets/knightcore-late-z-character-sheet.jpeg)
 
 ## Community boundary
 
